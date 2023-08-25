@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Agency FB;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+body{
+  overflow-x: hidden !important;
+}
+
+.navbar {
+  z-index: 1;
+  --bs-navbar-toggler-focus-width: 0rem;
+}
+.navbar-toggler {
+  border: 0 !important;
+}
+.logo{
+  font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.nav-link{
+  font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.bg-white{
+  background-color: white !important;
+}.bg-transparent{
+  background-color: transparent!important;
+}
+.invetC{
+    filter: invert(1);
+}
+ .listElement{
+    gap: 25px;
+ }
+ .elementE{
+    width: 18rem; 
+    z-index: -1; 
+    translate: none; 
+    rotate: none; 
+    scale: none; 
+    opacity: 1; 
+    transform: translate(0px, 0px);
+    border-radius: 10px;
+    box-shadow: #00000042 0px 0px 5px;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    z-index: 1;
+ }
+ .nav-fict{
+    height: 96px;
+    width: 100%;
+}
+.btnD {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+    cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+    .btnD{
+        width: 250px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 768px) {
+    
+    .bg-lg-transparent{
+        background-color: transparent !important;
+    }
+}
+.card-img-top{
+    height: 18rem;
+    object-fit: cover;
+}
+.vh-75{
+    height: 75vh !important;
+}

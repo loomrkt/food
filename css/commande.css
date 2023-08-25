@@ -1,0 +1,31 @@
+.inputF{
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    border: none;
+    outline: none;
+}
+.inputS{
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.inputS:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.retour{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    transform: rotate(180deg);
+}
+@media screen and (min-width:540px) {
+    .retour{
+    filter: invert(1);
+}
+}

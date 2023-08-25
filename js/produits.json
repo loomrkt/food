@@ -1,0 +1,209 @@
+[
+  {
+    "id": 1,
+    "nom": "Vary aminy ananana",
+    "description": "",
+    "prix": 1500,
+    "etoile": 4.5,
+    "categorie": "terroir",
+    "image": "../images/produits/terroir/1.jpg"
+  },
+  {
+    "id": 2,
+    "nom": "Mokary au fromage",
+    "description": "",
+    "prix": 500,
+    "etoile": 4.3,
+    "categorie": "terroir",
+    "image": "../images/produits/terroir/2.jpg"
+  },
+  {
+    "id": 3,
+    "nom": "Mokary au coco",
+    "description": "",
+    "prix": 500,
+    "etoile": 4.8,
+    "categorie": "terroir",
+    "image": "../images/produits/terroir/3.jpg"
+  },
+  {
+    "id": 4,
+    "nom": "Menakely",
+    "description": "",
+    "prix": 500,
+    "etoile": 4.6,
+    "categorie": "terroir",
+    "image": "../images/produits/terroir/4.jpg"
+  },
+  {
+    "id": 5,
+    "nom": "Vary & laoka",
+    "description": "",
+    "prix": 5000,
+    "etoile": 4.5,
+    "categorie": "terroir",
+    "image": "../images/produits/terroir/5.jpg"
+  },
+  {
+    "id": 6,
+    "nom": "Vary & laoka",
+    "description": "",
+    "prix": 5000,
+    "etoile": 4.7,
+    "categorie": "terroir",
+    "image": "../images/produits/terroir/6.jpg"
+  },
+  {
+    "id": 7,
+    "nom": "Vary & laoka",
+    "description": "",
+    "prix": 5000,
+    "etoile": 4.5,
+    "categorie": "terroir",
+    "image": "../images/produits/terroir/7.jpg"
+  },
+  {
+    "id": 8,
+    "nom": "Hamburger traditionnel ( Boeuf , porc )",
+    "description": "",
+    "prix": 5000,
+    "etoile": 4.7,
+    "categorie": "fastFood",
+    "image": "../images/produits/fastFood/1.jpg"
+  },
+  {
+    "id": 9,
+    "nom": "Hamburger végétarien",
+    "description": "",
+    "prix": 4000,
+    "etoile": 4.3,
+    "categorie": "fastFood",
+    "image": "../images/produits/fastFood/2.jpg"
+  },
+  {
+    "id": 10,
+    "nom": "Panini poulet",
+    "description": "",
+    "prix": 3000,
+    "etoile": "",
+    "categorie": "fastFood",
+    "image": "../images/produits/fastFood/3.jpg"
+  },
+  {
+    "id": 11,
+    "nom": "Pizza végétarien",
+    "description": "",
+    "prix": 6000,
+    "etoile": 4.6,
+    "categorie": "fastFood",
+    "image": "../images/produits/fastFood/4.jpg"
+  },
+  {
+    "id": 12,
+    "nom": "TACOS Jambon",
+    "description": "",
+    "prix": 4000,
+    "etoile": 4.8,
+    "categorie": "fastFood",
+    "image": "../images/produits/fastFood/5.jpg"
+  },
+  {
+    "id": 13,
+    "nom": "Panini poulet",
+    "description": "",
+    "prix": 5000,
+    "etoile": 4.5,
+    "categorie": "fastFood",
+    "image": "../images/produits/fastFood/6.jpg"
+  },
+  {
+    "id": 14,
+    "nom": "Panini jambon",
+    "description": "",
+    "prix": 5000,
+    "etoile": 4.6,
+    "categorie": "fastFood",
+    "image": "../images/produits/fastFood/7.jpg"
+  },
+  {
+    "id": 15,
+    "nom": "Beignet de banane",
+    "description": "",
+    "prix": 1000,
+    "etoile": 4.8,
+    "categorie": "enfant",
+    "image": "../images/produits/enfant/1.jpg"
+  },
+  {
+    "id": 16,
+    "nom": "Mini-sabdwich",
+    "description": "",
+    "prix": 2000,
+    "etoile": 4.7,
+    "categorie": "enfant",
+    "image": "../images/produits/enfant/2.jpg"
+  },
+  {
+    "id": 17,
+    "nom": "Gateau au manioc",
+    "description": "",
+    "prix": 1500,
+    "etoile": 4.5,
+    "categorie": "enfant",
+    "image": "../images/produits/enfant/3.jpg"
+  },
+  {
+    "id": 18,
+    "nom": "Goûters au lait(+coockies)",
+    "description": "",
+    "prix": 3000,
+    "etoile": "",
+    "categorie": "enfant",
+    "image": "../images/produits/enfant/4.jpg"
+  },
+  {
+    "id": 19,
+    "nom": "brochette de fruits",
+    "description": "",
+    "prix": 700,
+    "etoile": "",
+    "categorie": "enfant",
+    "image": "../images/produits/enfant/5.jpg"
+  },
+  {
+    "id": 20,
+    "nom": "guacamol",
+    "description": "",
+    "prix": 4000,
+    "etoile": 4.8,
+    "categorie": "regime",
+    "image": "../images/produits/regime/1.jpg"
+  },
+  {
+    "id": 21,
+    "nom": "Poulet frit accompagné de légumes sautés",
+    "description": "",
+    "prix": 18000,
+    "etoile": 4.9,
+    "categorie": "regime",
+    "image": "../images/produits/regime/2.jpg"
+  },
+  {
+    "id": 22,
+    "nom": "Salade de tofu aux oeufs dur",
+    "description": "",
+    "prix": 10000,
+    "etoile": 4.7,
+    "categorie": "regime",
+    "image": "../images/produits/regime/3.jpg"
+  },
+  {
+    "id": 23,
+    "nom": "Salade frisé accompagné de steak ou blanc de poulet frit et oeuf dur",
+    "description": "",
+    "prix": 18000,
+    "etoile": 4.8,
+    "categorie": "regime",
+    "image": "../images/produits/regime/4.jpg"
+  }
+]

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/ensemble.css">
+    <script src="../js/bootstrap.bundle.min.js" defer></script>
+    <script src="../js/produits.js" defer></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js" defer></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js" defer></script>
+    <script src="../js/goFB.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white bg-body-tertiary position-absolute w-100">
+    <div class="container-fluid">
+        
+        <a class="navbar-brand ms-3 ms-lg-5 d-flex align-items-center justify-content-center logo" href="../index.html">
+        <img src="../images/logo.png" alt="Logo" width="70" height="70" class="d-inline-block logoImage logoImg align-text-top me-2">
+        YUMMYBREAK
+        </a>
+        <button class="navbar-toggler toogleBtn me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="mx-auto"></div>
+        <div class="navbar-nav bg-white bg-lg-transparent">
+            <a class="nav-link ms-3 ms-lg-0 me-0 me-lg-5"  href="../index.html">Accueil</a>
+            <a class="nav-link active ms-3 ms-lg-0 me-0 me-lg-5" aria-current="page" href="produits.html">Produits</a>
+            <a class="nav-link ms-3 ms-lg-0 me-0 me-lg-5" href="Apropos.html">A propos</a>
+        </div>
+        </div>
+    </div>
+    </nav>
+    <div class="nav-fict"></div>
+    <main>
+         <section class="container-fluid mb-5">
+            <h1 class="text-center mt-5">SAVEURS DU TERROIR</h1>
+            <div class="row align-items-center justify-content-center listElement my-5" id="sLocal">
+            </div>
+            <div class="btnD" id="btnD">
+                Decouvrir <img src="../images/solar-arrow-right-broken.svg" class="ms-2" alt="" srcset="">
+            </div>
+            <h1 class="text-center mt-5">FAST FOOD</h1>
+            <div class="row align-items-center justify-content-center listElement my-5" id="ff">
+            </div>
+            <div class="btnD" id="btnff">
+                Decouvrir <img src="../images/solar-arrow-right-broken.svg" class="ms-2" alt="" srcset="">
+            </div>
+            <h1 class="text-center mt-5">REGIME</h1>
+            <div class="row align-items-center justify-content-center listElement my-5" id="rg">
+            </div>
+            <div class="btnD" id="btnrg">
+                Decouvrir <img src="../images/solar-arrow-right-broken.svg" class="ms-2" alt="" srcset="">
+            </div>
+            <h1 class="text-center mt-5">MENU ENFANT</h1>
+            <div class="row align-items-center justify-content-center listElement my-5" id="me">
+            </div>
+            <div class="btnD" id="btnme">
+                Decouvrir <img src="../images/solar-arrow-right-broken.svg" class="ms-2" alt="" srcset="">
+            </div>
+        </section>
+    </main>
+</body>
+<footer class="w-100 d-flex align-items-center justify-content-center bg-black">
+<div class="text-center invetC my-3">
+    <div class="d-flex align-items-center justify-content-center logo">
+        <img src="../images/logo.png" width="70" height="70" class="me-2" alt="">
+        <p class="mb-0">YUMMYBREAK</p>
+    </div>
+    <p>Votre slogan</p>
+</div>
+</footer>
+</html>
